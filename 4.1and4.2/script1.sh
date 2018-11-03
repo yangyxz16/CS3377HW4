@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ../newdir
+
 mkdir dir1
 touch dir1/file10
 

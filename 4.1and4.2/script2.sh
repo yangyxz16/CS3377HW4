@@ -1,4 +1,8 @@
 #!/bin/bash
 
-find -newer script2.sh >> a.txt
+echo "All the files and directories created: "
+cd ../newdir
+ls
+../4.1and4.2/script3.sh
+echo "After deletion: "
 ls

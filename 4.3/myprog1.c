@@ -9,9 +9,6 @@ int main () {
 	system("mkdir dir2");
 	system("touch dir2/file20");
 	system("touch file1");
-	system("");
-	//char command[50];
-	//strcpy(command, "ls -l" );
-        //system(command);  
+	system("ln -s dir2/file20 link1");  
 	return(0);
 	} 
